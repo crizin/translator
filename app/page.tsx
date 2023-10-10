@@ -64,7 +64,7 @@ export default function Home() {
             className="bg-stone-900 text-stone-300 outline-0 rounded-lg p-3 w-full h-[25vh] md:h-80"
             autoFocus
             defaultValue={source}
-            placeholder="Enter some texts in Korean or English."
+            placeholder="Try entering a sentence in Korean or English."
             onChange={(e) => setSource(e.target.value)}
           ></textarea>
         </div>
